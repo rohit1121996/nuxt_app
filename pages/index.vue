@@ -1,3 +1,13 @@
 <template>
-  <v-row justify="center" align="center"> </v-row>
+  <div>
+    <ManagerData />
+  </div>
 </template>
+<script>
+import ManagerData from "../components/ManagerData.vue";
+export default {
+  components: {
+    ManagerData
+  }
+};
+</script>
